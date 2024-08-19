@@ -1,0 +1,211 @@
+/*Estilização da página*/
+
+* {
+    margin: 0px;
+    padding: 0%
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(20, 28, 73);
+}
+
+/*Configurações*/
+.text-center {
+    text-align: center;
+
+}
+
+.margin-top4-40 {
+    margin-top: 40px;
+}
+
+/*Menu Cabeçalho*/
+.container-cabecalho {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(102, 180, 99, 0.979);
+}
+
+.container-cabecalho h3 {
+    color: rgb(241, 243, 247);
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+/*Container da Navegação*/
+
+.container-navegacao {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(95, 140, 148);
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.container-navegacao a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.container-navegacao a:hover {
+    color: blue;
+}
+
+/*Container da Sobre Mim  */
+.container-sobremim {
+    background-color: rgb(137, 194, 175);
+    overflow: auto;
+}
+
+.container-sobremim .artigo {
+    float: center;
+    width: 50%;
+    background-color: aquamarine;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 60px auto
+    
+}
+
+.container-sobremim .texto {
+
+    color: rgb(20, 28, 73);
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+ 
+}
+
+.container-sobremim .artigo .icone {
+    font-size: 3em;
+    color: rgb(20, 28, 73);
+    margin-bottom: 10p;
+    font-weight: bold;
+
+}
+
+.texto-realce {
+    color: rgb(20, 28, 73);
+    font-weight: bold
+}
+
+/*Página Sobre Mim*/
+
+.pagina {
+    float: center;
+    background-color: rgb(137, 194, 175);
+    overflow: auto;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(20, 28, 73);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+
+}
+.pagina h2 {
+    float: center;
+    font-size: 2.0em;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+.pagina li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 0px;
+    font-size: 1em;
+    font-weight: bold;
+  
+}
+
+/*Pagina Projeto*/
+
+.pagina-projeto {
+    float: center;
+    background-color: rgb(137, 194, 175);
+    overflow: auto;
+    text-align: center;
+    color: rgb(20, 28, 73);
+    margin-bottom: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px
+}
+
+.pagina-projeto h2 {
+    font-size: 2.0em;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px;
+}
+
+.pagina-projeto li {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-size: 2.0em;
+    background-color: rgb(137, 194, 175);
+    overflow: auto;
+    float: center;
+}
+
+.pagina-projeto p {
+    font-size: 2em;
+    font-weight: bold;
+}
+/*Container Contatos*/
+
+.container-contatos {
+    float: center;
+    background-color: rgb(137, 194, 175);
+    overflow: auto;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(20, 28, 73);
+    margin-bottom: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 80px;
+    font-weight: bold;
+
+}
+
+.container-contatos h2 {
+    font-size: 2.0em;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-contatos p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2.0em; 
+    background-color: rgb(137, 194, 175);
+    overflow: auto;
+    float: center;
+    padding: 10px;
+    
+    
+}
+ 
+/*Container Rodapé*/
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(102, 180, 99, 0.979);
+    color: white;
+    font-weight: bold;
+}
+
